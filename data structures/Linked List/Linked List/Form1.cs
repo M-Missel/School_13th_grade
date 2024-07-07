@@ -1,5 +1,4 @@
-﻿using Linked_List.src;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,11 +19,43 @@ namespace Linked_List
             InitializeComponent();
         }
 
+        public void BTN_Action_Click(object sender, EventArgs e)
+        {
+            testOperation();
+        }
+
+        private void testOperation()
+        {
+            fillList();
+
+            list = list.GetRange(0,5);
+
+            Console.WriteLine("-----------------");
+
+            showList();
+        }
+
         private void fillList()
         {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 10;i++)
             {
                 list.AddLast(i);
+            }
+        }
+
+        private void showList()
+        {
+            foreach (int i in list)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+        private void showArray(int[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
             }
         }
     }
