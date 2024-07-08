@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms.VisualStyles;
+using System.Xml;
 
 namespace Linked_List
 {
@@ -38,6 +39,16 @@ namespace Linked_List
         public OwnList()
         {
             head = null;
+        }
+
+        public OwnList(IEnumerable<T> data)
+        {
+            AddRange(data);
+        }
+
+        public OwnList(T data)
+        {
+            AddFirst(data);
         }
 
         public int Count
@@ -82,9 +93,21 @@ namespace Linked_List
             lastNode.Next = n;
         }
 
+        public void AddRange(IEnumerable<T> data)
+        {
+            Node node;
+
+            for (int i = 0; i < data.Count(); i++)
+            {
+                node = GetLastNode();
+                Node n = new Node(data.ElementAt(i));
+                node.Next = n;
+            }
+        }
+
         public void Clear()
         {
-            head = null;
+            head.Next = null;
             GC.Collect();
         }
 
@@ -209,6 +232,99 @@ namespace Linked_List
             return list;
         }
 
+        public int IndexOf(T data)
+        {
+            Node temp = head;
+            int index = 0;
+
+            while (temp.Next != null)
+            {
+                if (Compare(temp.Data, data))
+                {
+                    return index;
+                }
+                index++;
+            }
+
+            return index = -1;
+        }
+
+        public int IndexOf(T data, int indexStart)
+        {
+            Node temp = head;
+            int index, numb = 0;
+
+            while (numb < indexStart)
+            {
+                temp = temp.Next;
+                numb++;
+            }
+
+            index = numb;
+
+            while (temp.Next != null)
+            {
+                if (Compare(temp.Data, data))
+                {
+                    return index;
+                }
+                index++;
+            }
+
+            return index = -1;
+        }
+
+        public int IndexOf(T data, int indexStart, int indexEnd)
+        {
+            Node temp = head;
+            int index, numb = 0;
+
+            while (numb < indexStart)
+            {
+                temp = temp.Next;
+                numb++;
+            }
+
+            index = numb;
+
+            while (temp.Next != null && index < indexEnd)
+            {
+                if (Compare(temp.Data, data))
+                {
+                    return index;
+                }
+                index++;
+            }
+
+            return index = -1;
+        }
+
+        public void Reverse()
+        {
+            int counter = 0;
+            Node temp = head;
+            T[] valueCopy = new T[Count];
+            T[] valueReverse = new T[Count];
+
+            for (int i = 0; i < Count; i++)
+            {
+                valueCopy[i] = temp.Data;
+                temp = temp.Next;
+            }
+
+            throw new NotImplementedException();
+        }
+
+        public void Reverse(int indexStart)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Reverse(int indexStart, int indexEnd)
+        {
+            throw new NotImplementedException();
+        }
+
         public void RemoveAfter(int index)
         {
             Node temp = head;
@@ -249,7 +365,30 @@ namespace Linked_List
             }
         }
 
-        public string ToString()
+        public void RemoveRange(int indexStart, int indexEnd)
+        {
+            Node temp = head;
+            Node n;
+            int numb = 0;
+
+            while (numb < indexStart)
+            {
+                temp = temp.Next;
+                numb++;
+            }
+
+            n = temp.Next;
+
+            while (numb < indexEnd)
+            {
+                n = n.Next;
+                numb++;
+            }
+
+            temp.Next = n;
+        }
+
+        public string OwnToString()
         {
             string returnString = "";
             Node temp = head;

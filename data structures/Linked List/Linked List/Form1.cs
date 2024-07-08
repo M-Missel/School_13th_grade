@@ -28,9 +28,11 @@ namespace Linked_List
         {
             fillList();
 
-            list = list.GetRange(0,5);
+            showList();
 
             Console.WriteLine("-----------------");
+
+            list.Reverse();
 
             showList();
         }
