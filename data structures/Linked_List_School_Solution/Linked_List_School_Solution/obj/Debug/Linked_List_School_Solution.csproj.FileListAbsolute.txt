@@ -1,0 +1,11 @@
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\bin\Debug\Linked_List_School_Solution.exe.config
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\bin\Debug\Linked_List_School_Solution.exe
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\bin\Debug\Linked_List_School_Solution.pdb
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\obj\Debug\Linked_List_School_Solution.csproj.AssemblyReference.cache
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\obj\Debug\Linked_List_School_Solution.csproj.SuggestedBindingRedirects.cache
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\obj\Debug\Linked_List_School_Solution.Form1.resources
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\obj\Debug\Linked_List_School_Solution.Properties.Resources.resources
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\obj\Debug\Linked_List_School_Solution.csproj.GenerateResource.cache
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\obj\Debug\Linked_List_School_Solution.csproj.CoreCompileInputs.cache
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\obj\Debug\Linked_List_School_Solution.exe
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Linked_List_School_Solution\Linked_List_School_Solution\obj\Debug\Linked_List_School_Solution.pdb
