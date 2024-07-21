@@ -1,0 +1,11 @@
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\bin\Debug\Queue.exe.config
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\bin\Debug\Queue.exe
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\bin\Debug\Queue.pdb
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\obj\Debug\Queue.csproj.AssemblyReference.cache
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\obj\Debug\Queue.csproj.SuggestedBindingRedirects.cache
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\obj\Debug\Queue.Form1.resources
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\obj\Debug\Queue.Properties.Resources.resources
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\obj\Debug\Queue.csproj.GenerateResource.cache
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\obj\Debug\Queue.exe
+C:\Users\Xerox\OneDrive\Documents\GitHub\School_13th_grade\data structures\Queue\Queue\obj\Debug\Queue.pdb
