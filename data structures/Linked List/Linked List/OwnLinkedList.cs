@@ -331,14 +331,17 @@ namespace Linked_List
             Node n;
             int numb = 0;
 
-            while (numb < index - 1)
+            if (index < Count)
             {
-                temp = temp.Next;
-                numb++;
-            }
+                while (numb < index - 1)
+                {
+                    temp = temp.Next;
+                    numb++;
+                }
 
-            n = temp.Next;
-            temp.Next = n.Next;
+                n = temp.Next;
+                temp.Next = n.Next;
+            }
         }
 
         public void RemoveFirst()

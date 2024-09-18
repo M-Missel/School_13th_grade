@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35E0AA28-3425-4299-ADF0-588C4A21FFF1}|Linked_List_School_Solution\\Linked_List_School_Solution.csproj|c:\\users\\xerox\\onedrive\\documents\\github\\school_13th_grade\\data structures\\linked_list_school_solution\\linked_list_school_solution\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E0AA28-3425-4299-ADF0-588C4A21FFF1}|Linked_List_School_Solution\\Linked_List_School_Solution.csproj|solutionrelative:linked_list_school_solution\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E0AA28-3425-4299-ADF0-588C4A21FFF1}|Linked_List_School_Solution\\Linked_List_School_Solution.csproj|c:\\users\\xerox\\onedrive\\documents\\github\\school_13th_grade\\data structures\\linked_list_school_solution\\linked_list_school_solution\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E0AA28-3425-4299-ADF0-588C4A21FFF1}|Linked_List_School_Solution\\Linked_List_School_Solution.csproj|solutionrelative:linked_list_school_solution\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E0AA28-3425-4299-ADF0-588C4A21FFF1}|Linked_List_School_Solution\\Linked_List_School_Solution.csproj|C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\linked_list_school_solution\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E0AA28-3425-4299-ADF0-588C4A21FFF1}|Linked_List_School_Solution\\Linked_List_School_Solution.csproj|solutionrelative:linked_list_school_solution\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E0AA28-3425-4299-ADF0-588C4A21FFF1}|Linked_List_School_Solution\\Linked_List_School_Solution.csproj|C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\linked_list_school_solution\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35E0AA28-3425-4299-ADF0-588C4A21FFF1}|Linked_List_School_Solution\\Linked_List_School_Solution.csproj|solutionrelative:linked_list_school_solution\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Linked_List_School_Solution\\Node.cs",
+              "RelativeDocumentMoniker": "Linked_List_School_Solution\\Node.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Linked_List_School_Solution\\Node.cs",
+              "RelativeToolTip": "Linked_List_School_Solution\\Node.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:06:35.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Linked_List_School_Solution\\Form1.cs",
+              "RelativeDocumentMoniker": "Linked_List_School_Solution\\Form1.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Linked_List_School_Solution\\Form1.cs",
+              "RelativeToolTip": "Linked_List_School_Solution\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:01:20.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Linked_List_School_Solution\\Form1.cs",
+              "RelativeDocumentMoniker": "Linked_List_School_Solution\\Form1.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Linked_List_School_Solution\\Form1.cs [Design]",
+              "RelativeToolTip": "Linked_List_School_Solution\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:01:19.33Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Linked_List_School_Solution\\LinkedList.cs",
+              "RelativeDocumentMoniker": "Linked_List_School_Solution\\LinkedList.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Linked_List_School_Solution\\LinkedList.cs",
+              "RelativeToolTip": "Linked_List_School_Solution\\LinkedList.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAG4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:01:54.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

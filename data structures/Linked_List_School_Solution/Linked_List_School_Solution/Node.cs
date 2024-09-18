@@ -31,5 +31,10 @@ namespace Linked_List_School_Solution
         {
             return this.data;
         }
+
+        public void setzteInhalt(T pInhalt)
+        {
+            this.data = pInhalt;
+        }
     }
 }

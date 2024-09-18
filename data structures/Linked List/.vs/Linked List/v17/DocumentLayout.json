@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked List\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{748972CE-6A6C-4BF8-85F2-7D48D76B858A}|Linked List\\Linked List.csproj|c:\\users\\xerox\\onedrive\\documents\\github\\school_13th_grade\\data structures\\linked list\\linked list\\ownlinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748972CE-6A6C-4BF8-85F2-7D48D76B858A}|Linked List\\Linked List.csproj|solutionrelative:linked list\\ownlinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748972CE-6A6C-4BF8-85F2-7D48D76B858A}|Linked List\\Linked List.csproj|c:\\users\\xerox\\onedrive\\documents\\github\\school_13th_grade\\data structures\\linked list\\linked list\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748972CE-6A6C-4BF8-85F2-7D48D76B858A}|Linked List\\Linked List.csproj|solutionrelative:linked list\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748972CE-6A6C-4BF8-85F2-7D48D76B858A}|Linked List\\Linked List.csproj|C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked List\\linked list\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{748972CE-6A6C-4BF8-85F2-7D48D76B858A}|Linked List\\Linked List.csproj|solutionrelative:linked list\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OwnLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked List\\Linked List\\OwnLinkedList.cs",
+              "RelativeDocumentMoniker": "Linked List\\OwnLinkedList.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked List\\Linked List\\OwnLinkedList.cs",
+              "RelativeToolTip": "Linked List\\OwnLinkedList.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAgwFYBAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T14:08:39.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked List\\Linked List\\Form1.cs",
+              "RelativeDocumentMoniker": "Linked List\\Form1.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked List\\Linked List\\Form1.cs [Design]",
+              "RelativeToolTip": "Linked List\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T19:32:14.807Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked List\\Linked List\\Form1.cs",
+              "RelativeDocumentMoniker": "Linked List\\Form1.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked List\\Linked List\\Form1.cs",
+              "RelativeToolTip": "Linked List\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T14:07:51.421Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

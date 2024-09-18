@@ -32,7 +32,7 @@ namespace Linked_List
 
             Console.WriteLine("-----------------");
 
-            list.Reverse();
+            list.RemoveAfter(15);
 
             showList();
         }
