@@ -1,0 +1,85 @@
+<html>
+ <head>
+  <title>ColorChooser</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+   body {
+       background-size: cover;
+   }
+   
+   h1 {
+       text-align: center;
+       padding: 20px;
+       color: #A6E8FE;
+       border: 4px solid black;
+       background-image: url("farben.jpg");
+       margin: 30px;
+       font-size: 32px;
+   }
+   
+   #guiSeite {
+       width: 90%;
+       height: 100%;
+       color: #ccc;
+       padding: 10%;
+       font-size: 24px;
+   }
+   
+   #guiInput {
+       padding: 20px;
+   }
+   
+   input {
+       width: 100%;
+   }
+   
+   #guiOut {
+       font-size: 32px;
+       margin: 30px;
+       margin-top: 40px;
+       padding-top: 20px;
+       vertical-align: middle;
+       height: 100px;
+       text-align: center;
+       background-color: black;
+       color: #ccc;
+   }   
+  </style>
+ </head>
+ 
+ <body>
+
+  <!-- +++++++++++++++++++ -->
+  <!-- +    HTML-TEIL    + -->
+  <!-- +++++++++++++++++++ -->
+
+	<h1> Color-Chooser</h1>
+  
+  <div id="guiInput">
+	<p> Rot </p>
+	<input type="range" min=0 max=255 step=1 id="r"/>
+	<p> Grün </p>
+	<input type="range" min=0 max=255 step=1 id="g"/>
+	<p> Blau </p>
+	<input type="range" min=0 max=255 step=1 id="b"/>
+  </div>
+  
+  <div id="guiOut">
+	<p> rgb(0,0,0) </p>
+  </div>
+  
+
+
+  <!-- +++++++++++++++++++ -->
+  <!-- + JAVASCRIPT-TEIL + -->
+  <!-- +++++++++++++++++++ -->
+
+  <script>
+
+  </script>
+  
+ </body>
+ 
+</html>

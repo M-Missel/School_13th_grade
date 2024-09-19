@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zähler</title>
+    
+    <style>
+   body {
+    text-align: center;
+   }
+
+   .zaehler {
+     color: blue;
+     font-size: 96px;
+   }
+   
+   input {
+     color: blue;
+     font-size: 24px;
+     width: 30%;
+     padding: 8px;
+     margin: 32px;
+   }
+  </style>
+  </head>
+ <body>
+    
+  <!-- +++++++++++++++++++ -->
+  <!-- +    HTML-TEIL    + -->
+  <!-- +++++++++++++++++++ -->
+     
+	<h1 id="u1"> Zähler </h1>
+	
+	<div id="z" class="zaehler"> 0 </div>
+
+  <input type="button" value="up" id="up" onclick="addOne"/>
+	<input type="button" value="down" id="down"/>
+  <!-- +++++++++++++++++++ -->
+  <!-- + JAVASCRIPT-TEIL + -->
+  <!-- +++++++++++++++++++ -->
+   <script>
+      let counter = 0;
+      function addOne(){
+        jsobj = document.getElementById("z");
+        jsobj.innerText = counter++;
+      }
+
+      function subtractOne(){
+
+      }
+   </script>
+    
+    
+    
+   <!-- ###### Start zusätzliche Hinweise ###### -->
+   <div style="font-family: Verdana;margin: 64px 20px 0 20px; padding: 4px; border: 1px solid black; border-radius: 4px; color: black; text-align: left;">
+     <!-- todo --> 
+   </div>
+   <!-- ###### Ende der zusätzlichen Hinweise ###### -->
+  </body>
+</html>
