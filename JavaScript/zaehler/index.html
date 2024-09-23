@@ -34,21 +34,41 @@
 	
 	<div id="z" class="zaehler"> 0 </div>
 
-  <input type="button" value="up" id="up" onclick="addOne"/>
-	<input type="button" value="down" id="down"/>
+  <input type="button" value="up" id="b_up"/>
+	<input type="button" value="down" id="b_down"/>
   <!-- +++++++++++++++++++ -->
   <!-- + JAVASCRIPT-TEIL + -->
   <!-- +++++++++++++++++++ -->
    <script>
-      let counter = 0;
-      function addOne(){
-        jsobj = document.getElementById("z");
-        jsobj.innerText = counter++;
-      }
-
-      function subtractOne(){
-
-      }
+		btn_up = document.getElementById("b_up");
+		btn_up.addEventListener("click", upwards);
+		
+		btn_down = document.getElementById("b_down");
+		btn_down.addEventListener("click", downwards);
+		
+		function upwards(){
+			obj = document.getElementById("z");
+			inhalt = obj.innerText;
+		
+			zahl = parseInt(inhalt);
+			
+			if(zahl < 10){
+				zahl = zahl + 1;
+			}
+			obj.innerText = zahl;
+		}
+		
+		function downwards(){
+			obj = document.getElementById("z");
+			inhalt = obj.innerText;
+		
+			zahl = parseInt(inhalt);
+			
+			if(zahl > -10){
+				zahl = zahl - 1;
+			}
+			obj.innerText = zahl;
+		}
    </script>
     
     
