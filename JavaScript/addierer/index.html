@@ -24,7 +24,17 @@
   <!-- + JAVASCRIPT-TEIL + -->
   <!-- +++++++++++++++++++ -->  
   <script>
+    btn_calc = document.getElementById("addieren");
+    btn_calc.addEventListener("click", addieren);
 
+    function addieren(){
+      obj = document.getElementById("sum");
+      zahl1 = parseInt(document.getElementById("z1").innerText);
+      
+      zahl2 = parseInt(document.getElementById("z2").innerText);
+      
+      obj.innerText = "Test";
+    }
   </script>
  
  

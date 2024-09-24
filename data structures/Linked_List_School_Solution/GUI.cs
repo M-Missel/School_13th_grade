@@ -27,12 +27,21 @@ namespace VerketteteListe
         {
             string name = T_Name.Text;
             int index = Convert.ToInt32(T_Index.Text);
-
+            personList.einfuegen(index, new Person(name));
         }
 
         public void printListe()
         {
-            // todo 
+            L_Ausgabe.Items.Clear();
+            int anzahl = personList.anzahlElemente();
+
+            for (int i = 0; i < anzahl; i++)
+            {
+                Person person = personList.inhalt(i);
+                L_Ausgabe.Items.Add(person.getName());
+            }
+
+            L_Ausgabe.Items.Add("Ende");
 
             showListAsGraph();
         }
@@ -51,41 +60,41 @@ namespace VerketteteListe
         {
             int index = Convert.ToInt32(T_Index.Text);
             // todo
-            // todo: T_Ausgabe.Text = ...
+            T_Ausgabe.Text = Convert.ToString(personList.inhalt(index));
         }
 
         private void B_ersetzen_Click(object sender, EventArgs e)
         {
             int index = Convert.ToInt32(T_Index.Text);
             string name = T_Name.Text;
-            // todo
+            personList.ersetzen(index, new Person(name));
         }
 
         private void B_anhaengen_Click(object sender, EventArgs e)
         {
             string name = T_Name.Text;
             int index = Convert.ToInt32(T_Index.Text);
-            // todo
+            personList.anhaegen(new Person(name));
         }
 
         private void T_entfernenClick(object sender, EventArgs e)
         {
             int index = Convert.ToInt32(T_Index.Text);
             // todo
-            // todo T_Ausgabe.Text = ...
+            T_Ausgabe.Text = Convert.ToString(personList.entfernen(index));
         }
 
         private void B_enthaelt_Click(object sender, EventArgs e)
         {
             string name = T_Name.Text;
             // todo
-            // todo T_Ausgabe.Text = ...
+            T_Ausgabe.Text = personList.enthaelt(new Person(name)) ? "true" : "false";
         }
 
         private void T_entfElem_Click(object sender, EventArgs e)
         {
             string name = T_Name.Text;
-            personList.entfernenElement();
+            personList.entfernenElement(new Person(name));
         }
     }
 }

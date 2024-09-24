@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Xerox\\Downloads\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|c:\\users\\xerox\\downloads\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|c:\\users\\xerox\\downloads\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|c:\\users\\xerox\\downloads\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|c:\\users\\xerox\\downloads\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\knoten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:knoten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|c:\\users\\xerox\\downloads\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\verkettetelisten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:verkettetelisten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|c:\\users\\xerox\\downloads\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\knoten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:knoten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|c:\\users\\xerox\\downloads\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|c:\\users\\xerox\\downloads\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\05_verkettetelistekomplett_nurgui\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\Downloads\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Users\\Xerox\\Downloads\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T15:19:32.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GUI.cs",
               "DocumentMoniker": "C:\\Users\\Xerox\\Downloads\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\GUI.cs",
               "RelativeDocumentMoniker": "GUI.cs",
               "ToolTip": "C:\\Users\\Xerox\\Downloads\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\GUI.cs",
               "RelativeToolTip": "GUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T14:51:05.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GUI.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Xerox\\Downloads\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\GUI.cs",
               "RelativeDocumentMoniker": "GUI.cs",
@@ -69,14 +86,14 @@
               "RelativeDocumentMoniker": "VerketteteListen.cs",
               "ToolTip": "C:\\Users\\Xerox\\Downloads\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\VerketteteListen.cs",
               "RelativeToolTip": "VerketteteListen.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T14:50:55.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Knoten.cs",
               "DocumentMoniker": "C:\\Users\\Xerox\\Downloads\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\05_verketteteListeKomplett_nurGUI\\Knoten.cs",
               "RelativeDocumentMoniker": "Knoten.cs",

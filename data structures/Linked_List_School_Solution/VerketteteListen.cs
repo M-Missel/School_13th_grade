@@ -97,6 +97,12 @@ namespace VerketteteListe
         {
             int anzahl = anzahlElemente();
 
+            if (anzahl == 0)
+            {
+                einfuegenVorne(pInhalt);
+                return;
+            }
+
             if (anzahl > pIndex && pIndex >= 0)
             {
                 Knoten<Typ> knoten = erster;
