@@ -13,7 +13,7 @@
   <!-- +    HTML-TEIL    + -->
   <!-- +++++++++++++++++++ -->  
   
-  <h1> Addierer </h1>
+  <h1 id="ueberschrift"> Addierer </h1>
   
   <input type="text" id="z1"/> +
   <input type="text" id="z2"/> =
@@ -24,17 +24,20 @@
   <!-- + JAVASCRIPT-TEIL + -->
   <!-- +++++++++++++++++++ -->  
   <script>
-    btn_calc = document.getElementById("addieren");
-    btn_calc.addEventListener("click", addieren);
-
-    function addieren(){
-      obj = document.getElementById("sum");
-      zahl1 = parseInt(document.getElementById("z1").innerText);
-      
-      zahl2 = parseInt(document.getElementById("z2").innerText);
-      
-      obj.innerText = "Test";
-    }
+	btn_calc = document.getElementById("addieren");
+	btn_calc.addEventListener("click", calcValue);
+	
+	function calcValue(){
+		z1 = parseInt(document.getElementById("z1").value);
+		
+		z2 = parseInt(document.getElementById("z2").value);
+		
+		document.getElementById("sum").value = z1 + z2;
+		obj = document.getElementById("ueberschrift");
+		obj.innerText = "Addition erfolgreich";
+		obj.style.backgroundColor = '#00aa00';
+		obj.style.color = '#ccc';
+	}
   </script>
  
  

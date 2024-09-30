@@ -21,7 +21,21 @@
   <!-- + JAVASCRIPT-TEIL + -->
   <!-- +++++++++++++++++++ -->  
   <script>
-
+	btn_copy = document.getElementById("kopieren");
+	btn_copy.addEventListener("click", copyKette);
+	
+	function copyKette(){
+		/*
+		obj_input = document.getElementById("zk1");
+		inhalt = obj_input.value;
+		
+		obj_output = document.getElementById("zk2");
+		obj_output.value = inhalt;
+		*/
+		
+		document.getElementById("zk2").value = document.getElementById("zk1").value;
+		document.getElementById("zk1").value = "";
+	}
   </script>
   
   
