@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Xerox\\Downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F13C6E4-E2D5-407A-A83E-3E0EAC2E5ABA}|09_binaerbaum_basis\\09_binaerbaum_basis.csproj|c:\\users\\xerox\\downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\09_binaerbaum_basis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F13C6E4-E2D5-407A-A83E-3E0EAC2E5ABA}|09_binaerbaum_basis\\09_binaerbaum_basis.csproj|solutionrelative:09_binaerbaum_basis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F13C6E4-E2D5-407A-A83E-3E0EAC2E5ABA}|09_binaerbaum_basis\\09_binaerbaum_basis.csproj|c:\\users\\xerox\\downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\09_binaerbaum_basis\\knoten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F13C6E4-E2D5-407A-A83E-3E0EAC2E5ABA}|09_binaerbaum_basis\\09_binaerbaum_basis.csproj|solutionrelative:09_binaerbaum_basis\\knoten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F13C6E4-E2D5-407A-A83E-3E0EAC2E5ABA}|09_binaerbaum_basis\\09_binaerbaum_basis.csproj|c:\\users\\xerox\\downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\09_binaerbaum_basis\\binaerbaum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F13C6E4-E2D5-407A-A83E-3E0EAC2E5ABA}|09_binaerbaum_basis\\09_binaerbaum_basis.csproj|solutionrelative:09_binaerbaum_basis\\binaerbaum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\Downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\09_binaerbaum_basis\\Program.cs",
+              "RelativeDocumentMoniker": "09_binaerbaum_basis\\Program.cs",
+              "ToolTip": "C:\\Users\\Xerox\\Downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\09_binaerbaum_basis\\Program.cs",
+              "RelativeToolTip": "09_binaerbaum_basis\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T15:30:46.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Knoten.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\Downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\09_binaerbaum_basis\\Knoten.cs",
+              "RelativeDocumentMoniker": "09_binaerbaum_basis\\Knoten.cs",
+              "ToolTip": "C:\\Users\\Xerox\\Downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\09_binaerbaum_basis\\Knoten.cs",
+              "RelativeToolTip": "09_binaerbaum_basis\\Knoten.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T15:30:44.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "binaerbaum.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\Downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\09_binaerbaum_basis\\binaerbaum.cs",
+              "RelativeDocumentMoniker": "09_binaerbaum_basis\\binaerbaum.cs",
+              "ToolTip": "C:\\Users\\Xerox\\Downloads\\09_binaerbaum_basis\\09_binaerbaum_basis\\09_binaerbaum_basis\\binaerbaum.cs",
+              "RelativeToolTip": "09_binaerbaum_basis\\binaerbaum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T15:30:42.102Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
