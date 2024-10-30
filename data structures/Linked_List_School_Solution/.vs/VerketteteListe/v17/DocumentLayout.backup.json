@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|c:\\users\\xerox\\onedrive\\documents\\github\\school_13th_grade\\data structures\\linked_list_school_solution\\verkettetelisten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\knoten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:knoten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288F522C-218A-4D8E-AFFF-48714B9A48C4}|VerketteteListe.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +39,43 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GUI.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\GUI.cs",
+              "RelativeDocumentMoniker": "GUI.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\GUI.cs [Design]",
+              "RelativeToolTip": "GUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:51:02.865Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerketteteListen.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\VerketteteListen.cs",
+              "RelativeDocumentMoniker": "VerketteteListen.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\VerketteteListen.cs",
+              "RelativeToolTip": "VerketteteListen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:50:55.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Knoten.cs",
+              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Knoten.cs",
+              "RelativeDocumentMoniker": "Knoten.cs",
+              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Knoten.cs",
+              "RelativeToolTip": "Knoten.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:50:47.01Z"
             },
             {
               "$type": "Document",
@@ -55,32 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GUI.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\GUI.cs",
-              "RelativeDocumentMoniker": "GUI.cs",
-              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\GUI.cs [Design]",
-              "RelativeToolTip": "GUI.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T14:51:02.865Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VerketteteListen.cs",
-              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\VerketteteListen.cs",
-              "RelativeDocumentMoniker": "VerketteteListen.cs",
-              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\VerketteteListen.cs",
-              "RelativeToolTip": "VerketteteListen.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAAAEQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T14:50:55.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Person.cs",
               "RelativeDocumentMoniker": "Person.cs",
@@ -88,20 +100,7 @@
               "RelativeToolTip": "Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:19:32.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Knoten.cs",
-              "DocumentMoniker": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Knoten.cs",
-              "RelativeDocumentMoniker": "Knoten.cs",
-              "ToolTip": "C:\\Users\\Xerox\\OneDrive\\Documents\\GitHub\\School_13th_grade\\data structures\\Linked_List_School_Solution\\Knoten.cs",
-              "RelativeToolTip": "Knoten.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T14:50:47.01Z"
+              "WhenOpened": "2024-09-18T15:19:32.67Z"
             }
           ]
         }
