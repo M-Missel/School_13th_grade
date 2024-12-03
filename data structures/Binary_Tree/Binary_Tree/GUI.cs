@@ -14,24 +14,40 @@ namespace Binary_Tree
     {
         private Binaerbaum<int> zahlenBaum;
         private Binaerbaum<string> tierBaum;
+        private List<int> ints;
+
         public GUI()
         {
             InitializeComponent();
+            ints = new List<int>();
+            zahlenBaum = new Binaerbaum<int>(new Knoten<int>(500));
         }
 
         public void B_erstelleZahlenbaum_Click(object sender, EventArgs e)
         {
-            zahlenBaum = erstelleZahlenBaum();
-            //MessageBox.Show(zahlenBaum.anzahlKnoten().ToString());
+            zahlenBaum = erstelleZahlenBaum(Convert.ToInt32(TB_Anzahl.Text));
             zeichneBaum(zahlenBaum);
-            MessageBox.Show(zahlenBaum.ausgebenDatenPostOrder());
         }
 
         public void B_erstelleTierbaum_Click(object sender, EventArgs e)
         {
             tierBaum = erstelleTierbaum();
-
             zeichneBaum(tierBaum);
+        }
+
+        public void BTN_inOrder_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(zahlenBaum.ausgebenDateInOrder());
+        }
+
+        public void BTN_preOrder_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(zahlenBaum.ausgebenDatenPreOrder());
+        }
+
+        public void BTN_postOrder_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(zahlenBaum.ausgebenDatenPostOrder());
         }
 
         private Binaerbaum<int> erstelleZahlenBaum()
@@ -77,6 +93,138 @@ namespace Binary_Tree
             tierBaum.gibWurzel().gibRechtenKnoten().setzeRechtenKnoten(new Knoten<string>("Orang-Utang"));
 
             return tierBaum;
+        }
+
+        /*
+        private Binaerbaum<int> erstelleZahlenBaum(int pAnzahl)
+        {
+            Random random = new Random();
+            int index;
+
+            for (int i = 0; i < pAnzahl; i++)
+            {
+                index = random.Next(0, 1001);
+
+                if (ints.Count == 0)
+                {
+                    ints.Add(index);
+                }
+
+                do
+                {
+                    index = random.Next(0,1001);
+                } while (ints.Contains(index));
+
+                fuegeEin(index);
+                Console.Write(index + "\t");
+            }
+
+            Console.WriteLine("\n");
+
+            return zahlenBaum;
+        }
+        */
+
+        private Binaerbaum<int> erstelleZahlenBaum(int pAnzahl)
+        {
+            Random random = new Random();
+            Knoten<int> knoten = zahlenBaum.gibWurzel();
+            int index;
+
+
+            for (int i = 0; i < pAnzahl; i++)
+            {
+                index = random.Next(0,101);
+
+                while (knoten.gibInhalt().Equals(index))
+                {
+                    index = random.Next(0,101);
+                    knoten = sucheImBaum(zahlenBaum.gibWurzel(), index);
+                }
+
+                fuegeEin(index);
+            }
+
+            return zahlenBaum;
+        }
+
+        private Knoten<int> sucheEinfuegeKnoten(Knoten<int> knoten, int newElem)
+        {
+            if (newElem <= knoten.gibInhalt())
+            {
+                if (knoten.gibLinkenKnoten() == null)
+                {
+                    return knoten;
+                }
+                else
+                {
+                    return sucheEinfuegeKnoten(knoten.gibLinkenKnoten(), newElem);
+                }
+            }
+            else
+            {
+                if (knoten.gibRechtenKnoten() == null)
+                {
+                    return knoten;
+                }
+                else
+                {
+                    return sucheEinfuegeKnoten(knoten.gibRechtenKnoten(), newElem);
+                }
+            }
+        }
+
+        private Knoten<int> sucheImBaum(Knoten<int> knoten, int newElem)
+        {
+            if (knoten.gibInhalt().Equals(newElem))
+            {
+                return knoten;
+            }
+
+            if (newElem <= knoten.gibInhalt())
+            {
+                if (knoten.gibLinkenKnoten() == null)
+                {
+                    return knoten;
+                }
+                else
+                {
+                    return sucheImBaum(knoten.gibLinkenKnoten(), newElem);
+                }
+            }
+            else
+            {
+                if (knoten.gibRechtenKnoten() == null)
+                {
+                    return knoten;
+                }
+                else
+                {
+                    return sucheImBaum(knoten.gibRechtenKnoten(), newElem);
+                }
+            }
+        }
+
+        private void fuegeEin(int newElem)
+        {
+            Knoten<int> newKnoten;
+            if (zahlenBaum == null)
+            {
+                zahlenBaum = new Binaerbaum<int>(new Knoten<int>(newElem));
+            }
+            else
+            {
+                newKnoten = sucheEinfuegeKnoten(zahlenBaum.gibWurzel(), newElem);
+
+                if (newElem <= newKnoten.gibInhalt())
+                {
+                    newKnoten.setzeLinkenKnoten(new Knoten<int>(newElem));
+                }
+                else
+                {
+                    newKnoten.setzeRechtenKnoten(new Knoten<int>(newElem));
+                }
+            }
         }
 
         private void zeichneBaum(Binaerbaum<int> baum)

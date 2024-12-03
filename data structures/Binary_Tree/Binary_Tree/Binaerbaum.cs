@@ -22,14 +22,14 @@ namespace Binary_Tree
 
         public Knoten<Typ> gibWurzel()
         {
-            return wurzel;
+            return this.wurzel;
         }
         public void setzWurzel(Knoten<Typ> pWurzel)
         {
             this.wurzel = pWurzel;
         }
 
-        public bool isLeer()
+        public bool istLeer()
         {
             return wurzel == null;
         }

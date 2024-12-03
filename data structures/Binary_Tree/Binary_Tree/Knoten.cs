@@ -149,7 +149,21 @@ namespace Binary_Tree
 
         public string ausgebenDatenPostOrder()
         {
-            throw new NotImplementedException();
+            string str = "";
+
+            if (linkerKnoten != null)
+            {
+                str += $"{linkerKnoten.ausgebenDatenPostOrder()}";
+            }
+
+            if (rechterKnoten != null)
+            {
+                str += $"{rechterKnoten.ausgebenDatenPostOrder()}";
+            }
+
+            str += $" {gibInhalt()}";
+
+            return str;
         }
 
         public override string ToString()
@@ -166,6 +180,8 @@ namespace Binary_Tree
                 knotenstr += $"\"{inhalt.ToString()}\" ->  \"{rechterKnoten.gibInhalt().ToString()}\"; ";
                 knotenstr += rechterKnoten.ToString();
             }
+
+            Console.WriteLine(knotenstr);
 
             return knotenstr;
         }
